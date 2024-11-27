@@ -1,7 +1,7 @@
 # Writing patient data to a file
-patients = ["Zia, 30, DrugA", "Lynn, 45, DrugB"]
+patients = ["Zia", "Lynn"]
 
-with open("patients.txt", "w") as file:
+with open("patients.txt", "a") as file:
     for patient in patients:
         file.write(patient + "\n")
 

@@ -1,11 +1,11 @@
 students = [
     {
-        "name":"Reyhan",
+        "name": "Reyhan",
         "fav_nr": 5,
         "hobbies": ["running", "painting"]
     },
     {
-        "name":"Karen",
+        "name": "Karen",
         "fav_nr": 1,
         "hobbies": ["pokemon", "sleeping"]
     },
@@ -15,6 +15,25 @@ students = [
         "hobbies": ["gardening", "cooking", "sleeping"]
     }
 ]
+
+students_with_key = {
+    "Reyhan": {
+        "name": "Reyhan",
+        "fav_nr": 5,
+        "hobbies": ["running", "painting"]
+    },
+    "Karen": {
+        "name": "Karen",
+        "fav_nr": 1,
+        "hobbies": ["pokemon", "sleeping"]
+    },
+    "Ezhil": {
+        "name":"Ezhil",
+        "fav_nr": 7,
+        "hobbies": ["gardening", "cooking", "sleeping"]
+    }
+}
+
 
 for student in students:
     for hobby in student["hobbies"]:
